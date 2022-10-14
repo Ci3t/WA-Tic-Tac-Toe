@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --highlightWinner:rgb(238, 147, 11);
+}
+
+body {
+  font-family: "Comforter Brush", cursive;
+  background-color: orange;
+}
+
+.wrapper {
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+}
+.wrapper h1 {
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: white;
+}
+.wrapper .board {
+  width: 460px;
+  display: flex;
+  flex-wrap: wrap;
+  user-select: none;
+}
+.wrapper .board .box {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: white;
+}
+.wrapper button {
+  background: none;
+  border: 2px orange solid;
+  margin-top: 40px;
+  color: white;
+  font-size: 60px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  outline: none;
+}
+.wrapper button:hover {
+  color: rgb(252, 214, 0);
+}
+.wrapper h2 {
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: white;
+}
